@@ -19,7 +19,18 @@ details.index_details ul {
   text-justify: inter-word;
 }
 
+#tools-list ul {
+  padding-left: 32px;
+  margin-top: -12px;
+}
 
+.flag {
+  background-color: rgba(240, 128, 128, 0.7);
+}
+
+.language-plaintext .highlight {
+	background-color: rgba(240, 128, 128,0.1);
+}
 
 /*******************************************************************************
 MeyerWeb Reset
