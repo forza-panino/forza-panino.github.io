@@ -24,16 +24,22 @@ details.index_details ul {
   margin-top: -12px;
 }
 
-code {
-  overflow-x: scroll;
-}
-
 .flag {
   background-color: rgba(240, 128, 128, 0.7);
 }
 
 .language-plaintext .highlight {
 	background-color: rgba(240, 128, 128,0.1);
+}
+
+code {
+  overflow-x: scroll;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+pre {
+  overflow: auto;
 }
 
 /*******************************************************************************
